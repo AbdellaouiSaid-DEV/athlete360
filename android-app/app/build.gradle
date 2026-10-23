@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.said.athlete360'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.said.athlete360'
+        minSdk 29          // Android 10 ou plus récent
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Sans clé personnelle, la variante « release » n'est pas installable : utiliser assembleDebug (voir README).
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+// Aucune dépendance externe : l'application n'utilise que les composants Android de base.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- haltère centré (zone sûre de l'icône adaptative) -->
+    <path android:fillColor="#4D8DFF" android:pathData="M26,46h6v16h-6z M32,40h7v28h-7z M39,52h30v4H39z M69,40h7v28h-7z M76,46h6v16h-6z" />
+    <path android:fillColor="#E8EDF3" android:pathData="M34,74h40v3H34z" />
+</vector>
